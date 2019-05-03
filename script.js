@@ -6,7 +6,7 @@ let herPoimiPochemy2
     //--------------------------------------------------------------------------------------------------------------------    
     //Создание услуг с данными из db.jsaon в формы template id="service_item"    
     (function() {
-        fetch("github.com/FunkyWarrior/Boriska_SnS_Projekt/services")
+        fetch("http://localhost:3000/services")
             .then(response =>
                 response.json()
                 .then(json =>
@@ -30,7 +30,7 @@ let herPoimiPochemy2
     //--------------------------------------------------------------------------------------------------------------------    
     var users
     getUsers = function() {
-        fetch("github.com/FunkyWarrior/Boriska_SnS_Projekt/users")
+        fetch("http://localhost:3000/users")
             .then(response => response.json()
                 .then(response => users = response)
             )
@@ -102,7 +102,7 @@ let herPoimiPochemy2
         } else {
             kotik = inputArray[4].value
         }
-        fetch('github.com/FunkyWarrior/Boriska_SnS_Projekt/users', {
+        fetch('http://localhost:3000/users', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
