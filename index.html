@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Boris K. SnS projekt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <template id="service_item">
+        <div class="service_conteiner">
+            <img class="service_photo" src="" alt="">
+            <h5 class="service_body_short"></h5>
+            <h5 class="service_body_long"></h5>
+            <button class="more_service_info_button" onclick="moreInfoButton(event)">More Info</button>
+            <button class="add_to_cart_button" onclick="">Add to cart</button>
+            <p class="price"></p>
+        </div>
+    </template>
+    <template id="user_registration">
+        <div id="user_registration_form">
+            <h2>Registration form</h2>
+            <form id="reg_form" onsubmit="herPoimiPochemy(event);return false">                
+                <p>Enter your name(letters only):</p>
+                <input class="reg_input" type="text"  minlength ="1" maxlength="40" pattern="[a-zA-Zа-яёА-ЯЁ]{1,40}" name="Name" placeholder="Name" required>
+                <p>Enter your last Name(letters only):</p>
+                <input class="reg_input" type="text"  minlength ="1" maxlength="40" pattern="[a-zA-Zа-яёА-ЯЁ]{1,40}" name="Last Name" placeholder="Last Name" required>
+                <p>Enter your email:</p>
+                <input class="reg_input" type="email" name="Email" required>
+                <p>Enter your phone(380xxxxxxxxx):</p>
+                <input class="reg_input" type="tel" pattern="380[0-9]{9}" name="Phone"  required>
+                <p>Enter your avatar url link:</p>
+                <input class="reg_input" type="txt">
+                <p>Enter your password:</p>
+                <input class="reg_input" type="password" minlength="6" maxlength="25" required>
+                <p>Confirm your password:</p>
+                <input class="reg_input" type="password" minlength="6" maxlength="25" required>
+                <button id="close">X</button>
+                <input id="submit" type="submit" value="Submit">                
+            </form>
+        </div>
+    </template>
+    <template id="user_log_in">
+        <div id="user_log_in_form">
+            <h2>Log In form</h2>
+            <form id="login_form" onsubmit="herPoimiPochemy2(event);return false">                
+                <p>Enter your email:</p>
+                <input class="log_input" type="email" name="Email" required>                
+                <p>Enter your password:</p>
+                <input class="log_input" type="password" minlength="6" maxlength="25" required>                
+                <button id="close">X</button>
+                <input id="submit" type="submit" value="Submit">                
+            </form>
+        </div>    
+    </template>
+    <div id="header">
+        <a id="logo" href="#">Insert title here</a>
+        <div id="top_right_panel">
+            <ul class="nav_menu">
+                <li><button class="button">About Us</button></li>
+                <li><button class="button">Contacts</button></li>
+                <li><button class="button">Client otzivi</button></li>
+            </ul>
+            <button class="button" id="nav_button_sing_in">SING IN</button>
+            <button class="button" id="nav_button_sing_up">SING UP</button>
+        </div>
+    </div>
+    <div id="main">
+    </div>
+    <div id="box_shadow"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

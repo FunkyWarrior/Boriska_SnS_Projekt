@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Myriad', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+ul {
+    display: table;
+}
+
+h5,
+p {
+    margin: 10px 0;
+}
+h5{
+    margin: 0 5px;
+}
+input{
+    width:100%;
+
+}
+
+#close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width:30px;
+    height: 30px;
+}
+
+#box_shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10000px;
+    background: black;
+    opacity: 0.8;
+    display: none;
+    z-index: 1;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#header {    
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: flex-end;
+    padding: 0 5em;
+    min-height: 50px;
+}
+
+#top_right_panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav_menu>li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.button:hover {
+    background-color: lightgrey;
+}
+
+.button {
+    font-size: 25px;
+    text-decoration: none;
+    background-color: pink;
+    color: red;
+    border: 0px;
+    padding: 0 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#main {
+    height: 100%;
+    padding: 0 5em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: center;
+}
+
+.service_conteiner {
+    position: relative;
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgreen;
+    justify-content: center;
+    margin: 20px 1%;
+    min-width: 150px;
+    max-height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.service_photo {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.service_body_long {
+    display: none;
+}
+
+.add_to_cart_button,
+.more_service_info_button{
+    width: 100%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#user_registration_form,
+#user_log_in_form {
+    background-color: magenta;
+    justify-content: center;
+    position: fixed;
+    display:flex;
+    flex-wrap:wrap;
+    z-index: 2;
+    top:50%;
+    left:50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+#user_registration_form{
+    width:350px;
+    height:500px;
+    margin:-250px -175px;
+}
+#user_log_in_form{
+    width:350px;
+    height:250px;
+    margin:-125px -175px;
+}
+#reg_form,
+#login_form{
+    width:80%;
+}
+h2 { 
+    text-align: center;
+    padding: 0 0;
+    background-color: red;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+#submit{
+    margin:20px 0;
+    height: 30px;
+}
+

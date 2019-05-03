@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "name": "Boris",
+      "lastName": "Kozhin",
+      "email": "dead1990bb@gmail.com",
+      "phone": "380938807183",
+      "avatarUrl": "img/kotikAdmin.jpg",
+      "password": "123456",
+      "root": "true",
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "lastName": "Test",
+      "email": "test@gmail.com",
+      "phone": "380938807183",
+      "avatarUrl": "img/kotikUser.jpg",
+      "password": "test",
+      "root": "false",
+      "id": 2
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, magnam. Maxime nisi dolorum consectetur dolor impedit veniam placeat nobis repudiandae quibusdam aperiam! Dolor inventore modi corporis doloribus quos doloremque, esse sint. Dignissimos, assumenda, unde officiis recusandae blanditiis nihil totam tempora fuga, maxime, architecto quidem provident consequuntur alias expedita sint sunt.",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia architecto eveniet eos a amet, porro, perferendis nulla placeat quia, quaerat, ab quam qui deserunt dolor aperiam natus cum veritatis? Velit facilis porro reiciendis sequi maiores, voluptas, blanditiis a fugit doloremque minima ipsam dolorem architecto error incidunt aliquid alias eum veritatis?",
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quisquam illo velit nisi facere! Dolore nesciunt qui ipsam provident, laboriosam ullam delectus earum saepe veniam magni commodi consectetur in error facere a dignissimos libero ipsum harum rem tenetur quae. Consequuntur, ipsa pariatur id aliquam alias harum sunt, natus et inventore.",
+      "price": 1500
+    },
+    {
+      "id": 4,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga libero maiores explicabo cupiditate voluptas, ut laudantium reprehenderit adipisci eveniet quo. Odit, quasi. Minus inventore culpa numquam sit reiciendis quod perferendis et, dolores quis architecto eligendi quo praesentium laudantium hic, asperiores minima aut accusantium odio explicabo sunt quasi. Voluptate, corporis, commodi.",
+      "price": 1000
+    },
+    {
+      "id": 5,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ratione, laudantium. Molestias dolor iusto rem, voluptates dolores provident, natus alias ducimus nesciunt optio cumque suscipit laborum accusamus sequi! Eum aliquid quibusdam accusantium ex qui incidunt veniam, placeat accusamus doloribus ad, quas delectus minima ratione fugiat modi praesentium non dignissimos iste!",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsum magnam esse voluptatum, maxime ipsam quaerat labore harum, in. Perspiciatis nam omnis magnam. Earum tempora at aperiam eius quae praesentium quas, ipsum aspernatur labore, modi eum consequatur quia eveniet doloremque odit! Illum saepe, corporis alias officiis cumque sapiente, maxime quam.",
+      "price": 500
+    },
+    {
+      "id": 7,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eos, neque repudiandae, ab sapiente iusto ipsam facilis? Suscipit perferendis quo, delectus repellendus, iure culpa quam vel, quasi eos voluptatibus quos eius maxime, at distinctio! Repellat fuga quam tempora ipsa, vero molestiae, omnis in cupiditate, quidem sunt deleniti incidunt deserunt ullam.",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quisquam recusandae iusto, odio atque sint cum eos illum veritatis officia autem facere saepe quaerat, maxime quia numquam natus itaque cumque ducimus? Voluptatem quisquam reiciendis, iusto minus, impedit aliquam incidunt velit magni doloribus, repellat illum amet exercitationem distinctio labore, omnis similique.",
+      "price": 500
+    },
+    {
+      "id": 9,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus at laudantium nulla quas eum perferendis temporibus facere in incidunt dolor, nesciunt quasi minima animi molestiae maxime amet tempore voluptates, alias ducimus reprehenderit accusantium earum aspernatur deserunt. Sequi aliquam nihil possimus iste doloremque dicta eum, architecto, temporibus, sed, neque incidunt. Vero.",
+      "price": 500
+    },
+    {
+      "id": 10,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, ullam, voluptate! Quo labore fugiat fugit sint, animi provident reiciendis voluptatem, nesciunt, architecto rerum magnam laudantium ea inventore ad sapiente? A magnam consequuntur eligendi repudiandae reiciendis dignissimos unde molestiae facilis officiis, eius vero totam adipisci, delectus exercitationem iure rem quos eaque.",
+      "price": 500
+    },
+    {
+      "id": 11,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, omnis ratione odio illo placeat doloribus dolor, qui laborum eaque harum praesentium officia nulla fugiat architecto aliquam nam obcaecati, mollitia numquam! Porro aut perferendis iure accusantium optio fuga, quas autem dolor aspernatur harum, consequuntur vitae distinctio quos. Officiis quidem assumenda dolorum.",
+      "price": 500
+    },
+    {
+      "id": 12,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde maxime accusantium hic nemo ea, tempore vitae ab eius voluptate molestias adipisci vel harum quos quis commodi ad quia nihil nobis nostrum sit error. Illum asperiores dolor amet ad reprehenderit suscipit maxime ipsa porro atque voluptatum, assumenda non quasi numquam.",
+      "price": 500
+    },
+    {
+      "id": 13,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nihil dignissimos sunt accusantium veritatis perferendis incidunt beatae ea asperiores, omnis enim dolor tempore ex vero neque atque debitis assumenda ipsa? Quos officiis, voluptate laborum, tenetur, magnam distinctio dolore, illum consequuntur dolores debitis similique. Ipsam doloremque incidunt architecto, vero et. Pariatur.",
+      "price": 500
+    },
+    {
+      "id": 14,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nisi eum asperiores doloremque omnis porro pariatur sint dolorum ratione aut laboriosam magni aperiam, ab dolore, dolores quia hic, mollitia sunt. Quod, repellat ratione sed aspernatur vitae necessitatibus. Aut ipsa et, assumenda quo modi sapiente amet libero aliquid, voluptate nobis alias!",
+      "price": 500
+    },
+    {
+      "id": 15,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae iure praesentium sit natus eum, quod quibusdam ad temporibus, ab placeat expedita quam itaque odio, incidunt dolores? Totam possimus, ex dolores quod quam magni esse. Tempora, eaque, esse! Iusto libero voluptas accusamus dignissimos illum eum reiciendis vitae, numquam recusandae tenetur, dolorum?",
+      "price": 500
+    },
+    {
+      "id": 16,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum tempora possimus rem odio nesciunt quo, corporis facilis vitae sed praesentium laboriosam ipsam aspernatur cum nihil, accusantium eos dignissimos impedit, eum alias suscipit. Laudantium consequatur totam obcaecati sapiente qui esse impedit, aperiam magnam laborum iure aut, amet reiciendis eum, voluptas sint.",
+      "price": 500
+    },
+    {
+      "id": 17,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sed mollitia, ad harum! Ipsa magni velit repellendus, delectus blanditiis accusamus? Quis illum sequi quas ratione at beatae nobis, veritatis officiis, commodi exercitationem molestiae natus perspiciatis, maxime nam, debitis modi aliquam rerum possimus praesentium deleniti qui corporis quos. Omnis libero, itaque?",
+      "price": 500
+    },
+    {
+      "id": 18,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sint dolore maxime cupiditate aliquam itaque quo saepe, nam minima vitae, quidem dolorum sed. Consequuntur saepe quidem voluptate laborum a accusamus, vel aliquam pariatur harum, nihil natus et ea, odio ad numquam, enim architecto. Vero quibusdam blanditiis provident commodi, accusamus velit!",
+      "price": 500
+    },
+    {
+      "id": 19,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis est quas repellendus officia, rem nam consectetur maiores minima harum sint sapiente iure at voluptatum, nihil, quis similique impedit perferendis deserunt, corporis modi quae dignissimos! Distinctio totam ipsum accusantium voluptatum minima. Recusandae incidunt aliquid quo libero, soluta tempora perferendis porro odio!",
+      "price": 500
+    },
+    {
+      "id": 20,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est qui praesentium sunt iste ex ipsum omnis illum quisquam laborum a vel necessitatibus fugit cum porro voluptatum voluptates nisi adipisci blanditiis perspiciatis, architecto consequatur eligendi. Animi, dolores, maxime! Vero animi laborum asperiores, ad consequuntur quia eius, officia porro reprehenderit illo ea.",
+      "price": 500
+    },
+    {
+      "id": 21,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vitae et dolorum omnis doloribus cumque. Ipsam quasi praesentium dolorum asperiores, amet dolores atque voluptates harum nostrum totam. Facilis quo dolore laborum eum voluptatibus, neque possimus laboriosam voluptas maxime. Recusandae aliquid impedit odio atque ipsum quia rerum illo, modi sapiente et.",
+      "price": 500
+    },
+    {
+      "id": 22,
+      "servicePhoto": "https://picsum.photos/200",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure saepe magni, perspiciatis earum amet fugiat culpa rerum ipsa obcaecati consequatur maiores labore. Possimus quae nihil amet est animi qui, voluptate ea, blanditiis dolorum, magni incidunt labore cumque vitae. Laudantium eos vero, mollitia dolor error similique reiciendis est numquam aut soluta.",
+      "price": 500
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 2,
+      "body": "Замечательный сервис, мне все очень понравилось!"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "userId": 2,
+      "serviceId": 4
+    }
+  ]
+}
